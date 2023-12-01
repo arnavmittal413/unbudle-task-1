@@ -1,0 +1,33 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-container {
+    max-width: 500px; /* Adjusted to be more responsive */
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.product-carousel {
+    display: none;
+}
+
+.product-item {
+    min-width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.product-item img {
+    width: 100px;
+    height: auto;
+}
+
+/* Responsive styling for product items */
+@media only screen and (max-width: 768px) {
+    .product-item {
+        padding: 10px;
+    }
+}
